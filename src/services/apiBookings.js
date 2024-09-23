@@ -20,6 +20,7 @@ export async function getBookings({ filter, sortBy, page }) {
       ascending: sortBy.direction === "asc",
     });
 
+  // PAGINATION:
   if (page) {
     const from = (page - 1) * (PAGE_SIZE - 1);
     const to = from + PAGE_SIZE - 1;

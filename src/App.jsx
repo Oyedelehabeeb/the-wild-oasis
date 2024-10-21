@@ -3,7 +3,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 
 import GlobalStyles from "./styles/GlobalStyles";
-import Applayout from "./ui/Applayout";
+import AppLayout from "./ui/AppLayout";
 import Dashboard from "./pages/Dashboard";
 import Account from "./pages/Account";
 import Bookings from "./pages/Bookings";
@@ -37,7 +37,7 @@ function App() {
             <Route
               element={
                 <ProtectedRoute>
-                  <Applayout />
+                  <AppLayout />
                 </ProtectedRoute>
               }
             >

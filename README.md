@@ -3,7 +3,7 @@
 A web application for hotel booking and reservation.
 
 Technologies:
-React.js
+React
 Styled components 
 
 Libraries:
